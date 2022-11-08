@@ -1,0 +1,65 @@
+@import 'colors';
+
+.contact{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    > main{
+      background-color: whitesmoke;
+      height: 40rem;
+      width: 80%;
+      padding: 3rem;
+      border-radius: 0 200px 200px 0;
+      // box-shadow: 2vh;
+      > form{
+        margin: 5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:flex-end;
+        width: 70%;
+        margin: 0.5rem;
+
+       > div{
+          height: 3rem;
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          width: 80%;
+          margin: 0.5rem;
+
+          > label{
+            font: 400 1.2rem $text1;
+            width: 80%;
+            margin: 0 1rem;
+          }
+          >input{
+            align-self:center;
+            width: 80%;
+            padding: 1rem 3rem;
+            border-radius: 5px;
+            border: 1px solid rgb(13, 158, 255);
+            outline: none;
+          }
+       }  
+       
+       >button{
+        margin: 3rem;
+        padding: 0.7rem;
+        border: none;
+        border-radius: 5px;
+        background-color: brown;
+        color: $first;
+        width: 200px;
+        font:500 1rem $text1;
+        &:hover{
+        opacity: 0.9;
+        }
+
+       }
+      }}
+}
