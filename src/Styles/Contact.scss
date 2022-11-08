@@ -32,7 +32,7 @@
           margin: 0.5rem;
 
           > label{
-            font: 400 1.2rem $text1;
+            font: 400 1.2rem;
             width: 80%;
             margin: 0 1rem;
           }
@@ -54,7 +54,7 @@
         background-color: brown;
         color: $first;
         width: 200px;
-        font:500 1rem $text1;
+        font:500 1rem ;
         &:hover{
         opacity: 0.9;
         }
