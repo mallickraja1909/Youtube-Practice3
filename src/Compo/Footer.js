@@ -8,8 +8,8 @@ const Footer = () => {
     <p>@all right reserved</p>
     </div>
     <div>
-        <h5>CodeBase</h5>
-        <div><a href="https://github.com/mallickraja1909" target={"blank"}>GitHub</a></div>
+        <h5>Thank You</h5>
+        <div><a href="https://portfolio-raja-mallick.netlify.app/" target={"blank"}>Portfolio</a></div>
     </div>
     </footer>
   )
